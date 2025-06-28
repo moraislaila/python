@@ -1,7 +1,6 @@
-valor1 = float (input("digite seu primeiro numero"))
-valor2 = float(input("digite seu segundo numero"))
-valor3 = float (input("digite seu terceiro numero"))
-media = (valor1+valor2+valor3) / 3
+quilometros = float (input("qual foi a distancia percorrida?"))
+horas = float (input("em quanto tempo?"))
+Media = quilometros/horas
 
-print(f"sua media é igual é: {media}")
- 
+print(f"sua media de velocidade durante essa trilha foi de  : {Media} km/h")
+
